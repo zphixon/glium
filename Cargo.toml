@@ -33,7 +33,8 @@ test_headless = []  # used for testing headless display
 vk_interop = [] # used for texture import from Vulkan
 
 [dependencies.glutin]
-version = "0.29"
+git = 'https://github.com/zphixon/glutin'
+branch = 'my-winit'
 features = []
 optional = true
 
